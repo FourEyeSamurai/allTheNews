@@ -1,0 +1,35 @@
+{
+  "name": "allthenews",
+  "version": "1.0.0",
+  "description": "webscraping app that stores data in mongodb.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FourEyeSamurai/allTheNews.git"
+  },
+  "keywords": [
+    "webscraping",
+    "mongo",
+    "mongodb",
+    "mongoose",
+    "cheerio"
+  ],
+  "author": "Chris Leeson",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/FourEyeSamurai/allTheNews/issues"
+  },
+  "homepage": "https://github.com/FourEyeSamurai/allTheNews#readme",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "cheerio": "^1.0.0-rc.1",
+    "express": "^4.15.3",
+    "express-handlebars": "^3.0.0",
+    "handlebars": "^4.0.10",
+    "mongoose": "^4.10.5",
+    "request": "^2.81.0"
+  }
+}
